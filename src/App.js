@@ -15,7 +15,7 @@ function App() {
 
 	return (
 		<div className="App">
-			<Menu data={traerBlur}/>
+			<Menu data={pageBlur} blur={traerBlur}/>
 			<div className={pageBlur} >
 				<img src={bg} className="img" alt="logo" />
 			</div>    
